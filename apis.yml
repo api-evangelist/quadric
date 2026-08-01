@@ -1,19 +1,48 @@
 aid: quadric
 name: Quadric
-description: Quadric is a company surfaced as a portfolio company of uncork-capital and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Quadric is a semiconductor IP company based in Burlingame, California that
+  licenses the Chimera GPNPU (general-purpose neural processing unit) processor
+  IP and its accompanying software stack for on-device and edge AI inference.
+  The Chimera architecture unifies scalar, vector, and matrix compute in a single
+  fully C++ programmable core so both AI graph operators and classic DSP/C++ code
+  run on one pipeline, giving SoC designers a future-proof target for evolving
+  model roadmaps. Quadric ships a developer toolchain rather than a hosted web
+  API: the cloud-based DevStudio portal, the Chimera SDK (ONNX import from PyTorch
+  and TensorFlow), the ChiPy Python programming interface, an LLVM-based C++
+  extensibility path, and an instruction-set simulator for pre-silicon performance
+  modeling. This profile catalogs Quadric's developer surface for the API
+  Evangelist network.
 url: https://raw.githubusercontent.com/api-evangelist/quadric/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://quadric.ai/images/og-default.png
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - uncork-capital
-x-tier: stub
-x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Artificial Intelligence
+- Machine Learning
+- Semiconductors
+- Processor IP
+- Edge AI
+- NPU
+- Developer Tools
+- SDK
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,4 +51,27 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: https://quadric.io
+  url: https://quadric.ai/
+- type: DeveloperPortal
+  url: https://app.quadric.ai/
+- type: Documentation
+  url: https://quadric.ai/sdk
+- type: SignUp
+  url: https://app.quadric.ai/
+- type: Blog
+  url: https://quadric.ai/blog
+- type: Support
+  url: https://quadric.ai/contact
+- type: GitHubOrganization
+  url: https://github.com/quadric-io
+- type: TermsOfService
+  url: https://quadric.ai/terms-of-use
+- type: PrivacyPolicy
+  url: https://quadric.ai/privacy-policy
+- type: DomainSecurity
+  url: security/quadric-domain-security.yml
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
