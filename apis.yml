@@ -47,7 +47,7 @@ modified: '2026-07-20'
 tags:
 - Company
 - Artificial Intelligence
-- Machine-Learning
+- Machine Learning
 - Semiconductors
 - Processor IP
 - Edge AI
@@ -64,6 +64,7 @@ tags_raw:
 - NPU
 - Developer Tools
 - SDK
+- Machine-Learning
 apis: []
 maintainers:
 - FN: Kin Lane
